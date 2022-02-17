@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="static/styles.css">
+
+				
+	<title>Домашняя страница</title>
+</head>
+<body >
+	<header class="header">
+		<div class="header__inner">
+			<button onclick="changetheme()" class="btn-header">Изменить тему</button>
+			<nav>
+				<div class="menu___icon" onclick="changeclass()">
+					<h1 class="hamburger_icon">&#9776;</h1>
+				</div>
+			</nav>
+			<div class="bttns__header">
+
+				<button class="btn-header" onclick='location.href="https://vk.com/msidorchenko"' >VK</button>
+				<button class="btn-header" onclick='location.href="https://t.me/qternel"' >TG</button>
+				<button class="btn-header" onclick='location.href="https://www.twitch.tv/qternel"'>Twitch</button>
+			</div>
+		</div>
+
+	<div class="menu_overlay">
+		<div class="bttns__block align-right">
+			<div>
+				<button class="btn-header wide" onclick='location.href="https://vk.com/msidorchenko"' >VK</button>
+			</div>
+			<div>
+				<button class="btn-header wide" onclick='location.href="https://t.me/qternel"' >TG</button>
+			</div>
+			<div>
+				<button class="btn-header wide" onclick='location.href="https://www.twitch.tv/qternel"'>Twitch</button>
+			</div>
+		</div>
+	</div>
+</header>
+	<div class="container">
+		<div class="greetings">
+		  <h1 class="greetings__title">
+			Привет!
+		  </h1>
+		  <h2 class="greetings__text">
+			Я Миша. И это моя страница.
+		  </h2>
+		</div>
+	  </div>
+	<div class="container"> 
+		<div class="container__inner">
+			<div class="container_inner_title">
+				<h3>Обо мне</h3>
+			</div>
+			<div class="container_inner_content">
+				<div class="about">
+					<div class="about__image">
+						<img src="img/ava.jpg" class="profile_image" alt="profile_image">
+					</div>
+					<div class="about__row"> 
+						<ul>
+							<li><p>Name : Сидорченко Михаил Игоревич</p></li>
+							<li><p>City : Ростов-на-Дону</p></li>
+						 	<li><p>Age : 16</p></li>
+							<li><p>School : Лицей № 14 "Экономический"</p></li>
+							<li><p>Hobbies : Олимпиадное программирование, web разработка</p></li>
+							<li><p>GitHub : <a href="https://github.com/qternel300">Мой GitHub</a></p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="about__row">
+					  <div class="list">
+						<div class="list__title">
+						  Технологии
+						</div>
+						<span class="tag-block">Python</span>
+						<span class="tag-block">HTML</span>
+						<span class="tag-block">CSS</span>
+						
+					  </div>
+					  <div class="list">
+						<div class="list__title">
+						  Навыки
+						</div>
+						<span class="tag-block">Алгоритмы</span>
+						<span class="tag-block">Коммуникативность</span>
+						<span class="tag-block">Умение учиться</span>
+						<span class="tag-block">Усидчивость</span>
+					  </div>
+					  </div>
+			</div>
+		</div>
+	</div>
+	<script src="static/script.js"></script>
+</body>
+</html>
